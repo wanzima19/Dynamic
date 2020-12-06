@@ -23,8 +23,8 @@ public class Connection1{
                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dynamic?zeroDateTimeBehavior=convertToNull","root","");
           return con;
             
-          }catch(ClassNotFoundException | SQLException e){
-            JOptionPane.showMessageDialog(null, e);
+          }catch(ClassNotFoundException | SQLException i){
+            JOptionPane.showMessageDialog(null, i);
             return null;
     }      
 }
